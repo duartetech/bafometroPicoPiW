@@ -19,7 +19,7 @@
 
 // Função para controlar os LEDs com base no valor do ADC
 void controlar_leds(int adc_percent) {
-    if (adc_percent <=30) {
+    if (adc_percent <30) {
         gpio_put(LED_VERDE_PIN, 1);
         gpio_put(LED_AZUL_PIN, 0);
         gpio_put(LED_VERMELHO_PIN, 0);
@@ -84,7 +84,7 @@ void esquentando_sensor(uint8_t *ssd, struct render_area *frame_area) {
     ssd1306_draw_string(ssd, 5, 12, "Sensor");
     
 // Uma espera de 3 minutos (180 segundos) para esquentar o sensor e ler dados mais precisos
-    for (int i = 5; i >= 0; i--) {
+    for (int i = 180; i >= 0; i--) {
         snprintf(texto, sizeof(texto), "%d", i);
         memset(ssd + (128 * 2) + 20, 0, 60);
         ssd1306_draw_string(ssd, 50, 20, texto);
