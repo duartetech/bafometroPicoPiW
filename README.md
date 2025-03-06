@@ -56,7 +56,5 @@ Você pode ver o trabalho escrito do projeto neste seguinte link:
 
 
 
-## Licença
 
-Este projeto está licenciado sob a licença MIT. Sinta-se livre para utilizar, modificar e compartilhar!
 
