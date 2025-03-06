@@ -26,7 +26,7 @@ Este é um projeto de bafômetro utilizando o sensor **MQ-3** para detectar a pr
 
 Para simular o projeto no **Wokwi**, foi utilizado um potenciômetro no lugar do sensor MQ-3, permitindo variar manualmente o nível de entrada. Além da contagem para esquentar o sensor ser consideralvelmente menor.
 
-[[Simulação no Wokwi](https://www.wokwi.com/projects/422423325632409601)](https://wokwi.com/projects/422423325632409601)
+[https://www.wokwi.com/projects/422423325632409601](https://www.wokwi.com/projects/422423325632409601)
 
 ## Fluxograma do Funcionamento
 
